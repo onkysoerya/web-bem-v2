@@ -1,0 +1,10 @@
+@media only screen and (max-width:768px){
+    #sambutan{
+        padding: 10px 20px !important;
+    }
+    .cr-1{
+    }
+    .cr-3{
+        margin-top: 30px;
+    }
+}

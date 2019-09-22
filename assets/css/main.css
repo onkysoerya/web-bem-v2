@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css");
 @import "../css/bootstrap.min.css";
+@import "style.css";
 
 .container-fluid{
     padding-left: 0;
@@ -41,9 +42,7 @@
     padding:50px 100px;
     padding-bottom: 0px;
 }
-.cr-1{
-    
-}
+
 .cr-1 p{
     font-family: "Playfair Display";
     font-style: normal;
