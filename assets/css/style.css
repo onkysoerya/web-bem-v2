@@ -2,9 +2,33 @@
     #sambutan{
         padding: 10px 20px !important;
     }
-    .cr-1{
+    /* #m-cr1{
+        display: block !important;
     }
+    #w-cr1{
+        display: none !important;
+    } */
     .cr-3{
         margin-top: 30px;
+    }
+    .cr-1{
+        text-align: center;
+    }
+    .box-1{
+        margin-left: 150px;
+    }
+    .cr-2 img{
+        margin-top: 20px;
+    }
+    .cr-1 p {
+        margin-top: 10px;
+        font-size: 35px !important;
+        line-height: 90% !important;
+    }
+    .txt_bph{
+        text-align: center;        
+    }
+    .box-2{
+        margin-left: 65px;
     }
 }

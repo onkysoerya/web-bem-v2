@@ -42,13 +42,19 @@
     padding:50px 100px;
     padding-bottom: 0px;
 }
-
+#m-cr1{
+    display: none;
+}
+#w-cr1{
+    display: block;
+}
 .cr-1 p{
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: bold;
     font-size: 45px;
     color: #626262;
+    line-height: 50px;
 }
 .box-1{
     height: 10px;
@@ -81,9 +87,10 @@
 }
 
 .box-2{
-    height: 10px;
+    height: 5px;
     width: 70px;
     background-color: #F5AA39;
+    margin-top: 10px;
 }
 #swiper-two{
     padding-top: 50px;
@@ -124,8 +131,12 @@
     color: #515151;
     letter-spacing: 2px; 
 }
-.content_Berita .judul_Berita{
-    margin-top: 10px;
+.judul_Berita{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.content_Berita{
     color: #3E3E3E;
 }
 .content_Berita .artikel_Berita{
@@ -133,6 +144,7 @@
 }
 .content_Berita p{
     line-height: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .content_Berita a{
     color:#F5AA39; 
