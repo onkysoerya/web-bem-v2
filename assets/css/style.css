@@ -14,7 +14,7 @@
     .cr-1{
         text-align: center;
     }
-    .box-1{
+    .line-1{
         margin-left: 150px;
     }
     .cr-2 img{
@@ -28,7 +28,16 @@
     .txt_bph{
         text-align: center;        
     }
-    .box-2{
+    .line-2{
         margin-left: 65px;
+    }
+    #berita{
+        padding: 10px 20px !important;
+    }
+    .txt_Berita{
+        text-align: center;
+    }
+    .line-3{
+        margin-left: 150px;
     }
 }

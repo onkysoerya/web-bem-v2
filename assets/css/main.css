@@ -56,8 +56,8 @@
     color: #626262;
     line-height: 50px;
 }
-.box-1{
-    height: 10px;
+.line-1{
+    height: 5px;
     width: 70px;
     background-color: #F5AA39;
 }
@@ -86,7 +86,7 @@
     letter-spacing: 2px;
 }
 
-.box-2{
+.line-2{
     height: 5px;
     width: 70px;
     background-color: #F5AA39;
@@ -106,22 +106,32 @@
     transition-timing-function: ease-in-out
 }
 .bg-bph-1{
-    background-color: black;
+    background: url('../img/poster/PRESIDEN.png');
+    background-size: 90%;
 }
 .bg-bph-2{
-    background-color: #FFFFFF;
+    background: url('../img/poster/WAKIL\ PRESIDEN.png');
+    background-size: 95%;
 }
 
 .bg-bph-3{
-    background-color: orange;
+    background: url('../img/poster/PSDM.png');
+    background-size: 90%;
 }
 
 .bg-bph-4{
-    background-color: blue;
+    background: url('../img/poster/PERHUB.png');
+    background-size: 95%;
 }
 #berita{
     padding:10px 50px 0px 100px;
     font-family: 'Poppins';
+}
+.line-3{
+    height: 5px;
+    width: 70px;
+    background-color: #F5AA39;
+    margin-top: 10px;
 }
 .txt_Berita{
     font-family: Playfair Display;
