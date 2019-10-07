@@ -5,12 +5,12 @@
     <meta name="viewport" content="width= , initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Nunito+Sans:400,600,700,800|Playfair+Display|Poppins:400,500,600,700&display=swap" rel="stylesheet">
+    <title>BEM FILKOM</title>
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light nav-custom">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -197,19 +197,18 @@
             </div>
         </div>
         <div id="footer" class="row">
-            <div class="col-md-2 cr-ft">
+            <div class="col-md-2 cr-ft" style="border: 1px solid black;">
                 <p>BEM</p>
                 <p>FILKOM</p>
                 <p>2018/2019</p>
             </div>
-            <div class="col-md-2" style="margin-left:250px;margin-top: 20px;">
-                <img src="assets/img/sosmed/instagram.png" style="height: 50px;">
-            </div>
-            <div class="col-md-2" style="height: 50px;border-radius: 100px;margin-top: 20px;">
+            <div class="col-md-4" style="margin-left:200px;margin-top: 20px;border: 1px solid black;width: 100px;">
+                <img src="assets/img/sosmed/instagram.png" style="height: 50px;margin-left: 0px;">
+                <img src="assets/img/sosmed/twitter.png" style="height: 50px;" >
                 <img src="assets/img/sosmed/line.png"style="height: 50px;" >
             </div>
-            <div class="col-md-2" style="height: 50px;margin-top: 20px;">
-                <img src="assets/img/sosmed/twitter.png" style="height: 50px;" >
+            <div class="col-md-2" style="">
+
             </div>
         </div>
         <div id="footer2nd" class="row">
@@ -258,13 +257,12 @@
             swiper2.autoplay.start();
         });
         var swiper3 = new Swiper('#swiper-three', {
-            autoplay: {
+             autoplay: {
                 delay: 2000,
                 disableOnInteraction: false,
             },
             slidesPerView: 4,
-            spaceBetween: 30,
-            slidesPerGroup: 4,
+            spaceBetween: 60,
             loop:true,
             breakpoints: {
                 768: {
