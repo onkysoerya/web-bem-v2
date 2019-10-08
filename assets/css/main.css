@@ -1,3 +1,4 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css");
 @import "../css/bootstrap.css";
 @import "style.css";
@@ -7,10 +8,10 @@
     padding-right: 0;
     overflow: hidden;
 }
+
 #swiper-one{
     height: 580px;
     width: 100%;
-    background: red
 }
 #swiper-one .swiper-slide{
     background-size: cover;
@@ -18,9 +19,14 @@
 }
 .nav-custom{
     font-family: 'Nunito Sans';
-    font-size: 14px;
-    
-    background-color: #F1F1F1;
+    font-size: 15px;
+    background:transparent;
+
+}
+.nav-custom ul li a{
+    color: white !important; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
 }
 #bg-1{
     background: url("https://images.unsplash.com/photo-1569017388730-020b5f80a004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
@@ -40,9 +46,18 @@
     border-radius: unset
 }
 .tp-black{
+    position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 300px;
+}
+.tp-black p{
+    text-align: center;
+    color: #ffffff;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 #sambutan{
     padding:50px 100px;
@@ -128,7 +143,7 @@
     background-size: 95%;
 }
 #berita{
-    padding:10px 60px 30px 100px;
+    padding:40px 60px 30px 100px;
     font-family: 'Poppins';
 }
 .line-3{
@@ -169,59 +184,71 @@
 #partnership{
     padding:50px 100px;
 }
+.txt_partner{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: #515151;
+    letter-spacing: 2px;
+}
 #swiper-three .swiper-wrapper .swiper-slide{
-    height: 100px !important;
-    width: 100px !important;
+    height: 150px !important;
+    width: 150px !important;
 }
 .partner-1{
-    background: url('../img/mitra/1569138981961.png');
+    background: url('../img/mitra/1.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-2{
-    background: url('../img/mitra/1569138984533.png');
+    background: url('../img/mitra/2.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-3{
-    background: url('../img/mitra/1569138986027.jpg');
+    background: url('../img/mitra/3.jpg');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-4{
-    background: url('../img/mitra/1569138988137.jpg');
+    background: url('../img/mitra/4.jpg');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-5{
-    background: url('../img/mitra/1569138986027.jpg');
+    background: url('../img/mitra/5.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-6{
-    background: url('../img/mitra/1569138986027.jpg');
+    background: url('../img/mitra/6.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-7{
-    background: url('../img/mitra/1569138986027.jpg');
+    background: url('../img/mitra/7.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 .partner-8{
-    background: url('../img/mitra/1569138986027.jpg');
+    background: url('../img/mitra/8.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.partner-9{
+    background: url('../img/mitra/9.png');
     background-repeat: no-repeat;
     background-size:100%;
 }
 #footer{
     background:#0C2340;
-    padding:50px 100px;
-    padding-bottom: 30px;
+    padding:70px 100px;
 }
-.cr-ft{
-    color: #F5AA39;
+.cr-footer{
+    color:#ffffff;
     font-family: 'Poppins';
-    font-weight: 700;
+    font-weight: 600;
     font-size: 25px;
     line-height:21px;
 }
