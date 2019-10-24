@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px){
+@media only screen and (max-width:769px){
     #sambutan{
         padding: 10px 20px !important;
     }
@@ -8,28 +8,51 @@
     #w-cr1{
         display: none !important;
     } */
-    .cr-3{
-        margin-top: 30px;
+    .tp-black{
+        padding-top: 100px !important;
+    }
+    .p-bem{
+        font-size: 25px !important; 
+    }
+    .p-atr{
+        display: none;
+    }
+    .btn-lp{
+        display: none;
+    }
+    .p-bawah{
+        display: none;
     }
     .cr-1{
         text-align: center;
-    }
-    .line-1{
-        margin-left: 150px;
-    }
-    .cr-2 img{
-        margin-top: 20px;
     }
     .cr-1 p {
         margin-top: 10px;
         font-size: 35px !important;
         line-height: 90% !important;
     }
+    .line-1{
+        margin-left: 150px;
+    }
+    font{
+        margin-right: 110px;
+    }
+    .cr-2 img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .cr-3{
+        margin-top: 50px;
+    }
+    
     .txt_bph{
         text-align: center;        
     }
     .line-2{
-        margin-left: 65px;
+        margin-left: 75px;
+    }
+    #swipper-one .swiper-slide{
+        width: 100px;
     }
     #berita{
         padding: 10px 20px !important;
@@ -38,6 +61,28 @@
         text-align: center;
     }
     .line-3{
-        margin-left:80px;
+        margin-left:150px;
+    }
+    .txt_partner{
+        text-align: center;
+    }
+    .line-4{
+        margin-left:75px;
+    }
+    .cr-footer{
+        text-align: center;
+        margin-bottom:30px;
+    }
+    .txt_sosialmedia{
+       text-align: center;
+       display: none;
+    }
+    .ic-footer img{
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    .txt_alamat{ 
+        text-align: center;
+        margin-top: 20px;
     }
 }
