@@ -9,6 +9,30 @@ body, html{
     scroll-behavior: smooth;
     -webkit-scroll-behavior:smooth;
 }
+.nav-custom{
+    transition:500ms ease;
+    background:transparent;
+}
+.nav-custom.scrolled{
+    background:#0C2340;
+}
+.container {
+    margin-top: 30px;
+}
+.dropdown-toggle,
+.dropdown-menu {
+    border-radius: 0px !important;
+}
+.dropdown-item:hover {
+    color: white;
+    background-color: #F5AA39;
+}
+.btn-danger {
+    width: 55%;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
@@ -62,7 +86,7 @@ body, html{
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
-    padding-top: 250px;;
+    padding-top:320px;
 }
 .tp-black p{
     text-align: center;
