@@ -12,9 +12,11 @@ body, html{
 .nav-custom{
     transition:500ms ease;
     background:transparent;
+    font-
 }
 .nav-custom.scrolled{
-    background:#0C2340;
+    color: black;
+    background-color: #ffffff;;
 }
 .container {
     margin-top: 30px;
@@ -107,19 +109,30 @@ body, html{
 .tp-black .p-atr{
     margin-top: -25px;
 }
+.btn-lp{
+    border-radius: 0%;
+    border: 2px solid white;
+    background-color: transparent;
+}
 .btn-lp a{
     text-decoration: none;
     color: white;
 }
+.btn-lp:hover, a:hover{
+    text-decoration: none;
+    color: #626262;
+}
+.btn-lp:hover{
+    border-radius: 0%;
+    border: 2px solid white;
+    background-color: white;
+}
 .tp-black .btn-lp{
-    color:#ffffff;
-    background-color:#27AE60;
     width: 160px;
     height: 50px;
     font-size: 13px;
     letter-spacing: 0.13em;
     margin-top: -25px;
-    border-radius: 3px;
 }
 #sambutan{
     padding:120px 100px;
