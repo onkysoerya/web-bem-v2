@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main2.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <title>Profile - Direktur Internal</title>
+</head>
+<body>
+        <div class="container-fluid">
+
+
+        <div id="blue-box"  class="row mx-auto d-block">
+                <div class="col-md-12 txt_bph">
+                        <p>DIREKTUR INTERNAL</p>
+                        <div class="line-2"></div>
+                    </div>
+            <div class="row" style="color:white;margin-top: 10px;margin-bottom: 0;">
+                
+                <div class="col-md-6"><img data-aos="fade-up" data-aos-duration="1500" src="./assets/img/poster/brush/internal.png" class="mx-auto d-block"  style="width: 40%;">
+                    
+                </div>
+                
+                <div class="col-md-6" style="margin-top: 15%;font-size: x-large;">
+                        
+                    <div class="row">
+                            Raisadya Hemas
+                        </div>
+                        <div class="row">
+                               Sistem Informasi 2016
+                        </div>
+
+                </div>
+            </div>
+            
+           
+            <!--<div class="col-md-3"><h5 style="margin-top: 220px">Arya Wiguna</h5><h5>Aji Santoso</h5><h5>Lorem Ipsum</h5>
+            </div>-->
+        </div>
+        <div style="height: 100px; overflow: hidden;">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                  <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: #0C2340;"></path>
+                </svg>
+              </div>
+
+        <div id="white-box" class="row" >
+                <div class="col-md-12 txt_partner">
+                    <p style="color:black">Tujuan Pokok Fungsi</p>
+                    <div class="line-3"></div>
+                </div>
+                <div class="col-md-12" style="margin-top: 20px;">
+                        <p>Menyelenggarakan koordinasi, sinkronisasi, dan supervisi kebiroan dalam penyelenggaran kepengurusan.
+                            </p>
+                </div>
+            </div>
+
+<div style="background-color: #0C2340;">
+    <div style="height: 100px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+          <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none;fill: white;"></path>
+        </svg>
+      </div>
+
+    </div>
+    <div id="footer" class="row">
+            <div class="col-md-2 cr-footer">
+                <p>BEM</p>
+                <p>FILKOM</p>
+                <p>2018/2019</p>
+            </div>
+            <div class="col-md-3 offset-md-2" style="margin-top:-40px;">
+                <p style="color:#ffffff;text-align: center;font-family: 'Poppins';font-weight: 700;font-size: 25px;">OUR SOSIAL MEDIA</p>
+                <img class="offset-md-1" src="assets/img/sosmed/instagram.png" style="height: 50px;margin-top: 20px;">
+                <img class="offset-md-1"src="assets/img/sosmed/twitter.png" style="height: 50px;margin-top: 20px;" >
+                <img class="offset-md-1"src="assets/img/sosmed/facebook.png"style="height: 50px;margin-top: 20px;" >
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <p style="color:#ffffff;font-family: 'Poppins';font-weight: 400;">Sekretariat Gedung D1.11 FILKOM Jalan Veteran No, 8, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145</p>
+            </div>
+        </div>
+        <div id="footer2nd" class="row">
+            <div class="col-md-12 footer-2">
+                <p>2019, Made With Love by Biro Pengembangan Informasi dan Teknologi </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var swiper = new Swiper('#swiper-one', {
+            spaceBetween: 30,
+            effect: 'fade',
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+        var swiper2 = new Swiper('#swiper-two', {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            centeredSlides: true,
+            slidesPerView: 3,
+            spaceBetween: 90,
+            loop:true,
+            breakpoints: {
+                768: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                },
+                
+            }
+        })
+        $('#swiper-two').on('mouseenter', function(e){
+            swiper2.autoplay.stop();
+        })
+        $('#swiper-two').on('mouseleave', function(e){
+            swiper2.autoplay.start();
+        });
+        var swiper3 = new Swiper('#swiper-three', {
+             autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            slidesPerView: 9,
+            spaceBetween: 100,
+            loop:true,
+            breakpoints: {
+                768: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                }, 
+            }
+            
+            });
+    </script>
+    </body>
+    </html>
